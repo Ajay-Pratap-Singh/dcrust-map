@@ -1,0 +1,111 @@
+{
+    "mapMarker1": {
+        "cordX": "22.22",
+        "cordY": "26.74",
+        "icon": "map-marker.svg",
+        "modal": {
+            "title": "Auditorium",
+            "content": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, laborum.<p>"
+        }
+    },
+    "mapMarker2": {
+        "cordX": "84.22",
+        "cordY": "45.74",
+        "icon": "map-marker.svg",
+        "modal": {
+            "title": "University Swimming Pool",
+            "content": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, laborum.<p>"
+        }
+    },
+    "mapMarker3": {
+        "cordX": "75.91",
+        "cordY": "22.91",
+        "icon": "map-marker.svg",
+        "modal": {
+            "title": "Tennis Academy",
+            "content": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, laborum.<p>"
+        }
+    },
+    "mapMarker4": {
+        "cordX": "47.44",
+        "cordY": "11.94",
+        "icon": "map-marker.svg",
+        "modal": {
+            "title": "Multipurpose Hall",
+            "content": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, laborum.<p>"
+        }
+    },
+    "mapMarker5": {
+        "cordX": "42.22",
+        "cordY": "09.90",
+        "icon": "map-marker.svg",
+        "modal": {
+            "title": "Shopping Complex ",
+            "content": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, laborum.<p>"
+        }
+    },
+    "mapMarker6": {
+        "cordX": "41.22",
+        "cordY": "25.90",
+        "icon": "map-marker.svg",
+        "modal": {
+            "title": "Helipad",
+            "content": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, laborum.<p>"
+        }
+    },
+
+    "mapMarker7": {
+        "cordX": "37.22",
+        "cordY": "10.60",
+        "icon": "map-marker.svg",
+        "modal": {
+            "title": "Sushruta University Health Centre",
+            "content": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, laborum.<p>"
+        }
+    },
+    "mapMarker8": {
+        "cordX": "40.22",
+        "cordY": "47.60",
+        "icon": "map-marker.svg",
+        "modal": {
+            "title": "Canteen",
+            "content": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, laborum.<p>"
+        }
+    },
+    "mapMarker9": {
+        "cordX": "31.52",
+        "cordY": "23.10",
+        "icon": "map-marker.svg",
+        "modal": {
+            "title": "Savera School",
+            "content": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, laborum.<p>"
+        }
+    },
+    "mapMarker10": {
+        "cordX": "51.22",
+        "cordY": "39.60",
+        "icon": "map-marker.svg",
+        "modal": {
+            "title": "Stage",
+            "content": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, laborum.<p>"
+        }
+    },
+    "mapMarker11": {
+        "cordX": "71.22",
+        "cordY": "33.60",
+        "icon": "map-marker.svg",
+        "modal": {
+            "title": "Cricket Ground",
+            "content": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, laborum.<p>"
+        }
+    },
+    "mapMarker12": {
+        "cordX": "52.81",
+        "cordY": "16.46",
+        "icon": "map-marker.svg",
+        "modal": {
+            "title": "Basketball Arena",
+            "content": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, laborum.<p>"
+        }
+    }
+}
