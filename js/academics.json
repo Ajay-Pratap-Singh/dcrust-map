@@ -1,0 +1,74 @@
+{
+    "mapMarker1": {
+        "cordX": "41.81",
+        "cordY": "76.46",
+        "icon": "map-marker.svg",
+        "modal": {
+            "title": "Deenbandhu Chhotu Ram Statue",
+            "content": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, laborum.<p>"
+        }
+    },
+    "mapMarker2": {
+        "cordX": "35.81",
+        "cordY": "63.70",
+        "icon": "map-marker.svg",
+        "modal": {
+            "title": "S. Radhakrishnan Bhawan",
+            "content": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, laborum.<p>"
+        }
+    },
+    "mapMarker3": {
+        "cordX": "38.31",
+        "cordY": "54.64",
+        "icon": "map-marker.svg",
+        "modal": {
+            "title": "J.C. Bose Block",
+            "content": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, laborum.<p>"
+        }
+    },
+    "mapMarker4": {
+        "cordX": "22.93",
+        "cordY": "52.93",
+        "icon": "map-marker.svg",
+        "modal": {
+            "title": "C.V. Raman Block",
+            "content": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, laborum.<p>"
+        }
+    },
+    "mapMarker5": {
+        "cordX": "14.85",
+        "cordY": "47.73",
+        "icon": "map-marker.svg",
+        "modal": {
+            "title": "Vikram Sarabhai",
+            "content": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, laborum.<p>"
+        }
+    },
+    "mapMarker6": {
+        "cordX": "34.22",
+        "cordY": "42.74",
+        "icon": "map-marker.svg",
+        "modal": {
+            "title": "M.V. Block",
+            "content": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, laborum.<p>"
+        }
+    },
+    "mapMarker7": {
+        "cordX": "28.22",
+        "cordY": "34.74",
+        "icon": "map-marker.svg",
+        "modal": {
+            "title": "Saraswati Library Complex",
+            "content": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, laborum.<p>"
+        }
+    },
+    "mapMarker8": {
+        "cordX": "7.18",
+        "cordY": "33.74",
+        "icon": "map-marker.svg",
+        "modal": {
+            "title": "Central Workshop",
+            "content": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, laborum.<p>"
+        }
+    }
+}
