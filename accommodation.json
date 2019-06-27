@@ -1,0 +1,56 @@
+{
+	"mapMarker1": {
+		"cordX": "87.22",
+		"cordY": "29.74",
+		"icon": "map-marker.svg",
+		"modal": {
+			"title": "Chandra Shekhar Hall",
+			"content": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, laborum.<p>"
+		}
+	},
+	"mapMarker2": {
+		"cordX": "78.82",
+		"cordY": "25.49",
+		"icon": "map-marker.svg",
+		"modal": {
+			"title": "K.S. Krishna Hall",
+			"content": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, laborum.<p>"
+		}
+	},
+	"mapMarker3": {
+		"cordX": "70.22",
+		"cordY": "19.74",
+		"icon": "map-marker.svg",
+		"modal": {
+			"title": "Hargobind Khurana Hall",
+			"content": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, laborum.<p>"
+		}
+	},
+	"mapMarker4": {
+		"cordX": "64.42",
+		"cordY": "16.74",
+		"icon": "map-marker.svg",
+		"modal": {
+			"title": "Aryabhat Hall",
+			"content": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, laborum.<p>"
+		}
+	},
+	"mapMarker5": {
+		"cordX": "31.22",
+		"cordY": "17.74",
+		"icon": "map-marker.svg",
+		"modal": {
+			"title": "Gargi Hall and Mother Teresa Hall ",
+			"content": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, laborum.<p>"
+		}
+	},
+	"mapMarker6": {
+		"cordX": "30.62",
+		"cordY": "11.23",
+		"icon": "map-marker.svg",
+		"modal": {
+			"title": "Kalpna Chawla Hall",
+			"content": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, laborum.<p>"
+		}
+	}
+}
