@@ -73,6 +73,22 @@ function Map(name){
 
 	}
 
+	this.removeAllMapMarkers = function(){
+
+		var count = 0;
+		
+		for (mapMarker in this.mapMarkers){
+
+			if (mapMarker != "removeElement") {
+
+				this.mapMarkers[mapMarker].removeMarker();
+	
+			};
+
+		}
+
+	}
+
 	this.closeAllModals = function(){
 		for (var i = this.openedModals.length-1; i >= 0; i--) {
 			this.openedModals[i].closeModal()
