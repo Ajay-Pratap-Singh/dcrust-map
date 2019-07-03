@@ -115,6 +115,7 @@
 			padding: 0;
 			text-decoration: none;
 			font-weight: light;
+			outline: none;
 		}
 	</style>
 </head>
@@ -181,11 +182,13 @@
 			nav.style.height = "100vh";
 			document.querySelector("#more").innerHTML = "<span style='font-size: 30px' class='fa fa-arrow-circle-down'></span>";
 			document.querySelector(".cont2").style.display = "block";
+			document.querySelector("#more").innerHTML = "<span style='font-size: 30px' class='fa fa-arrow-circle-down'></span>";
 		}
 		else {
 			nav.style.height = "8%";
 			document.querySelector("#more").innerHTML = "<span style='font-size: 30px' class='fa fa-arrow-circle-up'></span>";
 			document.querySelector(".cont2").style.display = "none";
+			document.querySelector("#more").innerHTML = "<span style='font-size: 30px' class='fa fa-arrow-circle-up'></span>";
 		}
 	}
 
