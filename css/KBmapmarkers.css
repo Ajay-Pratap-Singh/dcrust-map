@@ -81,7 +81,7 @@
   -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
   -moz-box-sizing: border-box;    /* Firefox, other Gecko */
   box-sizing: border-box;         /* Opera/IE 8+ */
-  z-index: 1; }
+  z-index: 99; }
   .KBmap__markerContent .KBmap__markerTitle {
         margin-top: 0px;
         margin-bottom: .5em;
@@ -98,7 +98,8 @@
 
 .KBmap__markerClose {
   position: absolute;
-  top: 10px;
+  top: 0px;
+  padding: 5px;
   right: 10px;
   cursor: pointer;
   color: #231f20; }

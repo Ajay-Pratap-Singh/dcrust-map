@@ -6,6 +6,7 @@
 	<title>
 		Dcrust Map
 	</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
 		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -18,9 +19,10 @@
 
 	<link href="css/KBmapmarkers.css" rel="stylesheet">
 	<style>
-		*{
+		* {
 			box-sizing: border-box;
 		}
+
 		html {
 			font-size: 62.5%;
 		}
@@ -49,21 +51,65 @@
 		}
 
 		.mynav {
-			transition:0.5s;
+			transition: 0.5s;
 			z-index: 100;
 			position: fixed;
 			bottom: 0;
 			width: 100%;
 			height: 8%;
 			display: flex;
+			flex-direction: column;
 			padding: 1rem 0rem;
 			flex-wrap: nowrap;
-			justify-content: space-evenly;
+			justify-content: space-between;
 			background-color: #003366ec !important;
+		}
+
+		.cont1 {
+			display: flex;
+			flex-direction: row;
+			align-self: flex-start;
+			width: 100%;
+			justify-content: space-evenly;
+		}
+
+
+		.cont2 {
+			display: none;
+			flex-grow: 5;
+
+		}
+
+		.cont2__flex {
+			display: flex;
+			/* margin-top: 20px;
+			max-width: 82rem;
+			width: 100%;
+			margin: 0 auto;
+			column-count: 3;
+			column-gap: 40px;
+			justify-content: center; */
+			flex-direction: row;
+			justify-content: space-evenly;
+		}
+
+		.col1,
+		.col2,
+		.col3 {
+			margin-top: 20px;
+			color: #fff;
+			font-weight: 300;
+			font-size: 2rem;
+			cursor: pointer;
+		}
+
+		p {
+			line-height: 0.9;
 		}
 
 		.nav-link {
 			cursor: pointer;
+			outline: none;
 			color: #fff !important;
 			font-size: 22px;
 			padding: 0;
@@ -75,29 +121,71 @@
 
 <body>
 	<section class="KBmap" id="KBtestmap">
-		
+
 	</section>
-	
+
 	<nav class="mynav">
-		<a class="nav-link" href="#" id="acad"><i class="fa fa-graduation-cap"> </i> Academics</a>
-		<a class="nav-link" href="#" id="accom"><i class="fa fa-bed"> </i> Accommodation</a>
-		<a class="nav-link" href="#" id="social"><i class="fa fa-share-square"></i> Social</a>
-		<a class="nav-link" href="#" id="more" onclick="openNav()"> Expand</a>
+		<div class="cont1">
+			<a class="nav-link" href="#" id="acad"><i class="fa fa-graduation-cap"> </i> Academics</a>
+			<a class="nav-link" href="#" id="accom"><i class="fa fa-bed"> </i> Accommodation</a>
+			<a class="nav-link" href="#" id="social"><i class="fa fa-share-square"></i> Social</a>
+			<a class="nav-link" href="#" id="more" onclick="openNav()"> <span style="font-size: 30px"
+					class="fa fa-arrow-circle-up"></span> </a>
+		</div>
+		<div class="cont2">
+			<hr>
+			<div class="cont2__flex">
+				<div class="col1">
+					<p>Deenbandhu Chhotu Ram Statue</p>
+					<p>S. Radhakrishnan Bhawan</p>
+					<p>J.C. Bose Block</p>
+					<p>C.V. Raman Block</p>
+					<p>Vikram Sarabhai</p>
+					<p>M.V. Block</p>
+					<p>Saraswati Library Complex</p>
+					<p>Central Workshop</p>
+				</div>
+				<div class="col2">
+					<p>Chandra Shekhar Hall</p>
+					<p>K.S. Krishna Hall</p>
+					<p>Hargobind Khurana Hall</p>
+					<p>Aryabhat Hall</p>
+					<p>Gargi Hall and Mother Teresa Hall</p>
+					<p>Kalpna Chawla Hall</p>
+				</div>
+				<div class="col3">
+					<p>Auditorium</p>
+					<p>University Swimming Pool</p>
+					<p>Tennis Academy</p>
+					<p>Multipurpose Hall</p>
+					<p>Shopping Complex </p>
+					<p>Helipad</p>
+					<p>Sushruta University Health Centre</p>
+					<p>Canteen</p>
+					<p>Savera School</p>
+					<p>Stage</p>
+					<p>Cricket Ground</p>
+					<p>Basketball Arena</p>
+				</div>
+			</div>
+		</div>
 	</nav>
 </body>
 
 <script>
 
 	function openNav() {
-		
-		const nav= document.querySelector(".mynav");
-		if(getComputedStyle(nav).height.slice(0,3).valueOf()<100){
+
+		const nav = document.querySelector(".mynav");
+		if (getComputedStyle(nav).height.slice(0, 3).valueOf() < 100) {
 			nav.style.height = "100vh";
-			document.querySelector("#more").innerHTML="Close";
+			document.querySelector("#more").innerHTML = "<span style='font-size: 30px' class='fa fa-arrow-circle-down'></span>";
+			document.querySelector(".cont2").style.display = "block";
 		}
-		else{
+		else {
 			nav.style.height = "8%";
-			document.querySelector("#more").innerHTML="Expand";
+			document.querySelector("#more").innerHTML = "<span style='font-size: 30px' class='fa fa-arrow-circle-up'></span>";
+			document.querySelector(".cont2").style.display = "none";
 		}
 	}
 
