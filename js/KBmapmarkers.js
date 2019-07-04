@@ -366,48 +366,45 @@ jQuery(document).ready(function () {
 		});
 
 	});
-
 	// on map marker click trigger event markerClick (adding new event)
 	jQuery('body').on('click', '.KBmap__marker img', function () {
 		var clickedMarkerName = jQuery(this).parent().attr('data-marker-name');
 		var clickedMarkerMapName = jQuery(this).parent().parent().parent().parent().attr('id');
-		console.log('ashish');
-		jQuery.event.trigger('markerClick', getKBmap(clickedMarkerMapName).mapMarkers[clickedMarkerName]);
-
+		jQuery.event.trigger('markerOpen', getKBmap(clickedMarkerMapName).mapMarkers[clickedMarkerName]);
 	});
 
-	// jQuery('body').on('mouseenter', '.KBmap__marker img', function () {
-	// 	console.log('asdsdfd');
-	// });
+	jQuery('body').on('mouseenter', '.KBmap__marker img', function () {
+		var clickedMarkerName = jQuery(this).parent().attr('data-marker-name');
+		var clickedMarkerMapName = jQuery(this).parent().parent().parent().parent().attr('id');
+		jQuery.event.trigger('markerOpen', getKBmap(clickedMarkerMapName).mapMarkers[clickedMarkerName]);
+	});
 
-	// on "x" click in modal block close modal
-	jQuery('body').on('click', '.KBmap__markerClose', function (event) {
-
-		event.stopPropagation();
-		console.log('svjbsjbd');
-
-		var clickedMarkerName = jQuery(this).parent().parent().attr('data-marker-name');
-		var clickedMarkerMapName = jQuery(this).parent().parent().parent().parent().parent().attr('id');
-
+	jQuery('body').on('mouseleave', '.KBmap__markerContent', function () {
+		var clickedMarkerName = jQuery(this).parent().attr('data-marker-name');
+		var clickedMarkerMapName = jQuery(this).parent().parent().parent().parent().attr('id');
+		console.log('ashishOut');
 		jQuery.event.trigger('markerClose', getKBmap(clickedMarkerMapName).mapMarkers[clickedMarkerName]);
 
 	});
 
-	// on modal body click add current class to it and remove that class from all other opened modals 
-	// (current modal is always on top of others)
-	jQuery('body').on('click', '.KBmap__markerContent', function () {
-
-		var mapMarkerParent = jQuery(this).parent().attr('data-marker-name');
-		var mapMarkerMapParent = jQuery(this).parent().parent().parent().parent().attr('id');
-
-		getKBmap(mapMarkerMapParent).mapMarkers[mapMarkerParent].setCurrent()
+	// on "x" click in modal block close modal
+	jQuery('body').on('click', '.KBmap__markerClose', function (event) {
+		event.stopPropagation();
+		var clickedMarkerName = jQuery(this).parent().parent().attr('data-marker-name');
+		var clickedMarkerMapName = jQuery(this).parent().parent().parent().parent().parent().attr('id');
+		jQuery.event.trigger('markerClose', getKBmap(clickedMarkerMapName).mapMarkers[clickedMarkerName]);
 
 	});
 
 	// on markerClick event run function that opens linked modal
-	jQuery(document).on('markerClick', function (event, mapMarker) {
+	jQuery(document).on('markerOpen', function (event, mapMarker) {
 
-		mapMarker.modal.toggleModal();
+		mapMarker.modal.openModal();
+
+	});
+	jQuery(document).on('markerOut', function (event, mapMarker) {
+
+		mapMarker.modal.closeModal();
 
 	});
 
