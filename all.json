@@ -1,5 +1,14 @@
 {
     "mapMarker1": {
+        "cordX": "41.81",
+        "cordY": "76.46",
+        "icon": "map-marker.svg",
+        "modal": {
+            "title": "Deenbandhu Chhotu Ram Statue",
+            "content": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, laborum.<p>"
+        }
+    },
+    "mapMarker2": {
         "cordX": "35.81",
         "cordY": "63.70",
         "icon": "map-marker.svg",
@@ -8,7 +17,7 @@
             "content": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, laborum.<p>"
         }
     },
-    "mapMarker2": {
+    "mapMarker3": {
         "cordX": "38.31",
         "cordY": "54.64",
         "icon": "map-marker.svg",
@@ -17,7 +26,7 @@
             "content": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, laborum.<p>"
         }
     },
-    "mapMarker3": {
+    "mapMarker4": {
         "cordX": "22.93",
         "cordY": "52.93",
         "icon": "map-marker.svg",
@@ -26,25 +35,25 @@
             "content": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, laborum.<p>"
         }
     },
-    "mapMarker4": {
+    "mapMarker5": {
         "cordX": "14.85",
         "cordY": "47.73",
         "icon": "map-marker.svg",
         "modal": {
-            "title": "Central Workshop",
-            "content": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, laborum.<p>"
-        }
-    },
-    "mapMarker5": {
-        "cordX": "34.22",
-        "cordY": "42.74",
-        "icon": "map-marker.svg",
-        "modal": {
-            "title": "Vikram Sarabhai Block",
+            "title": "Vikram Sarabhai",
             "content": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, laborum.<p>"
         }
     },
     "mapMarker6": {
+        "cordX": "34.22",
+        "cordY": "42.74",
+        "icon": "map-marker.svg",
+        "modal": {
+            "title": "M.V. Block",
+            "content": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, laborum.<p>"
+        }
+    },
+    "mapMarker7": {
         "cordX": "28.22",
         "cordY": "34.74",
         "icon": "map-marker.svg",
@@ -53,34 +62,16 @@
             "content": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, laborum.<p>"
         }
     },
-    "mapMarker7": {
+    "mapMarker8": {
         "cordX": "7.18",
         "cordY": "33.74",
         "icon": "map-marker.svg",
         "modal": {
-            "title": "M.V. Block",
-            "content": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, laborum.<p>"
-        }
-    },
-    "mapMarker8": {
-        "cordX": "22.22",
-        "cordY": "26.74",
-        "icon": "map-marker.svg",
-        "modal": {
-            "title": "Auditorium",
+            "title": "Central Workshop",
             "content": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, laborum.<p>"
         }
     },
     "mapMarker9": {
-        "cordX": "84.22",
-        "cordY": "45.74",
-        "icon": "map-marker.svg",
-        "modal": {
-            "title": "University Swimming Pool",
-            "content": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, laborum.<p>"
-        }
-    },
-    "mapMarker10": {
         "cordX": "87.22",
         "cordY": "29.74",
         "icon": "map-marker.svg",
@@ -89,7 +80,7 @@
             "content": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, laborum.<p>"
         }
     },
-    "mapMarker11": {
+    "mapMarker10": {
         "cordX": "78.82",
         "cordY": "25.49",
         "icon": "map-marker.svg",
@@ -98,7 +89,7 @@
             "content": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, laborum.<p>"
         }
     },
-    "mapMarker12": {
+    "mapMarker11": {
         "cordX": "70.22",
         "cordY": "19.74",
         "icon": "map-marker.svg",
@@ -107,7 +98,7 @@
             "content": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, laborum.<p>"
         }
     },
-    "mapMarker13": {
+    "mapMarker12": {
         "cordX": "64.42",
         "cordY": "16.74",
         "icon": "map-marker.svg",
@@ -116,25 +107,7 @@
             "content": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, laborum.<p>"
         }
     },
-    "mapMarker14": {
-        "cordX": "75.91",
-        "cordY": "22.91",
-        "icon": "map-marker.svg",
-        "modal": {
-            "title": "Tennis Academy",
-            "content": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, laborum.<p>"
-        }
-    },
-    "mapMarker15": {
-        "cordX": "47.44",
-        "cordY": "11.94",
-        "icon": "map-marker.svg",
-        "modal": {
-            "title": "Multipurpose Hall",
-            "content": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, laborum.<p>"
-        }
-    },
-    "mapMarker16": {
+    "mapMarker13": {
         "cordX": "31.22",
         "cordY": "17.74",
         "icon": "map-marker.svg",
@@ -143,34 +116,7 @@
             "content": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, laborum.<p>"
         }
     },
-    "mapMarker17": {
-        "cordX": "42.22",
-        "cordY": "09.90",
-        "icon": "map-marker.svg",
-        "modal": {
-            "title": "Shopping Complex ",
-            "content": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, laborum.<p>"
-        }
-    },
-    "mapMarker18": {
-        "cordX": "41.22",
-        "cordY": "25.90",
-        "icon": "map-marker.svg",
-        "modal": {
-            "title": "Helipad",
-            "content": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, laborum.<p>"
-        }
-    },
-    "mapMarker19": {
-        "cordX": "37.22",
-        "cordY": "10.60",
-        "icon": "map-marker.svg",
-        "modal": {
-            "title": "Sushruta University Health Centre",
-            "content": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, laborum.<p>"
-        }
-    },
-    "mapMarker20": {
+    "mapMarker14": {
         "cordX": "30.62",
         "cordY": "11.23",
         "icon": "map-marker.svg",
@@ -179,7 +125,70 @@
             "content": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, laborum.<p>"
         }
     },
+    "mapMarker15": {
+        "cordX": "22.22",
+        "cordY": "26.74",
+        "icon": "map-marker.svg",
+        "modal": {
+            "title": "Auditorium",
+            "content": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, laborum.<p>"
+        }
+    },
+    "mapMarker16": {
+        "cordX": "84.22",
+        "cordY": "45.74",
+        "icon": "map-marker.svg",
+        "modal": {
+            "title": "University Swimming Pool",
+            "content": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, laborum.<p>"
+        }
+    },
+    "mapMarker17": {
+        "cordX": "75.91",
+        "cordY": "22.91",
+        "icon": "map-marker.svg",
+        "modal": {
+            "title": "Tennis Academy",
+            "content": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, laborum.<p>"
+        }
+    },
+    "mapMarker18": {
+        "cordX": "47.44",
+        "cordY": "11.94",
+        "icon": "map-marker.svg",
+        "modal": {
+            "title": "Multipurpose Hall",
+            "content": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, laborum.<p>"
+        }
+    },
+    "mapMarker19": {
+        "cordX": "42.22",
+        "cordY": "09.90",
+        "icon": "map-marker.svg",
+        "modal": {
+            "title": "Shopping Complex ",
+            "content": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, laborum.<p>"
+        }
+    },
+    "mapMarker20": {
+        "cordX": "41.22",
+        "cordY": "25.90",
+        "icon": "map-marker.svg",
+        "modal": {
+            "title": "Helipad",
+            "content": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, laborum.<p>"
+        }
+    },
     "mapMarker21": {
+        "cordX": "37.22",
+        "cordY": "10.60",
+        "icon": "map-marker.svg",
+        "modal": {
+            "title": "Sushruta University Health Centre",
+            "content": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, laborum.<p>"
+        }
+    },
+    "mapMarker22": {
         "cordX": "40.22",
         "cordY": "47.60",
         "icon": "map-marker.svg",
@@ -188,7 +197,7 @@
             "content": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, laborum.<p>"
         }
     },
-    "mapMarker22": {
+    "mapMarker23": {
         "cordX": "31.52",
         "cordY": "23.10",
         "icon": "map-marker.svg",
@@ -197,7 +206,7 @@
             "content": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, laborum.<p>"
         }
     },
-    "mapMarker23": {
+    "mapMarker24": {
         "cordX": "51.22",
         "cordY": "39.60",
         "icon": "map-marker.svg",
@@ -206,21 +215,12 @@
             "content": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, laborum.<p>"
         }
     },
-    "mapMarker24": {
+    "mapMarker25": {
         "cordX": "71.22",
         "cordY": "33.60",
         "icon": "map-marker.svg",
         "modal": {
             "title": "Cricket Ground",
-            "content": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, laborum.<p>"
-        }
-    },
-    "mapMarker25": {
-        "cordX": "41.81",
-        "cordY": "76.46",
-        "icon": "map-marker.svg",
-        "modal": {
-            "title": "Deenbandhu Chhotu Ram Statue",
             "content": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, laborum.<p>"
         }
     },
