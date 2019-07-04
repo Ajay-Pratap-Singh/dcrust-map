@@ -370,21 +370,15 @@ jQuery(document).ready(function () {
 	jQuery('body').on('click', '.KBmap__marker img', function () {
 		var clickedMarkerName = jQuery(this).parent().attr('data-marker-name');
 		var clickedMarkerMapName = jQuery(this).parent().parent().parent().parent().attr('id');
+		getKBmap(clickedMarkerMapName).closeAllModals();
 		jQuery.event.trigger('markerOpen', getKBmap(clickedMarkerMapName).mapMarkers[clickedMarkerName]);
 	});
 
 	jQuery('body').on('mouseenter', '.KBmap__marker img', function () {
 		var clickedMarkerName = jQuery(this).parent().attr('data-marker-name');
 		var clickedMarkerMapName = jQuery(this).parent().parent().parent().parent().attr('id');
+		getKBmap(clickedMarkerMapName).closeAllModals();
 		jQuery.event.trigger('markerOpen', getKBmap(clickedMarkerMapName).mapMarkers[clickedMarkerName]);
-	});
-
-	jQuery('body').on('mouseleave', '.KBmap__markerContent', function () {
-		var clickedMarkerName = jQuery(this).parent().attr('data-marker-name');
-		var clickedMarkerMapName = jQuery(this).parent().parent().parent().parent().attr('id');
-		console.log('ashishOut');
-		jQuery.event.trigger('markerClose', getKBmap(clickedMarkerMapName).mapMarkers[clickedMarkerName]);
-
 	});
 
 	// on "x" click in modal block close modal
