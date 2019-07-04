@@ -28,7 +28,7 @@
 		}
 
 		body {
-			overflow-x: hidden;
+			overflow: hidden;
 			background-color: #ffffff;
 			color: #212121;
 			margin: 0;
@@ -128,10 +128,10 @@
 	<nav class="mynav">
 		<div class="cont1">
 			<a class="nav-link" href="#" id="acad"><i class="fa fa-graduation-cap"> </i> Academics</a>
-			<a class="nav-link" href="#" id="accom"><i class="fa fa-bed"> </i> Accommodation</a>
+			<a class="nav-link" href="#" id="accom"><i class="fa fa-bed"> </i> Hostels</a>
 			<a class="nav-link" href="#" id="social"><i class="fa fa-share-square"></i> Social</a>
-			<a class="nav-link" href="#" id="more" onclick="openNav()"> <span style="font-size: 30px"
-					class="fa fa-arrow-circle-up"></span> </a>
+			<a class="nav-link" href="#" id="more" onclick="openNav()"><span style="font-size: 30px"
+					class="fa fa-arrow-circle-up"></span> Show All </a>
 		</div>
 		<div class="cont2">
 			<hr>
@@ -180,20 +180,26 @@
 		const nav = document.querySelector(".mynav");
 		if (getComputedStyle(nav).height.slice(0, 3).valueOf() < 100) {
 			nav.style.height = "100vh";
-			document.querySelector("#more").innerHTML = "<span style='font-size: 30px' class='fa fa-arrow-circle-down'></span>";
+			document.querySelector("#more").innerHTML = "<span style='font-size: 30px' class='fa fa-arrow-circle-down'></span> Close";
 			document.querySelector(".cont2").style.display = "block";
-			document.querySelector("#more").innerHTML = "<span style='font-size: 30px' class='fa fa-arrow-circle-down'></span>";
 		}
 		else {
 			nav.style.height = "8%";
-			document.querySelector("#more").innerHTML = "<span style='font-size: 30px' class='fa fa-arrow-circle-up'></span>";
+			document.querySelector("#more").innerHTML = "<span style='font-size: 30px' class='fa fa-arrow-circle-up'></span> Show All";
 			document.querySelector(".cont2").style.display = "none";
-			document.querySelector("#more").innerHTML = "<span style='font-size: 30px' class='fa fa-arrow-circle-up'></span>";
 		}
 	}
 
 	(function ($) {
 		let path = './all.json';
+		$("#more").click(function () {
+			path = './all.json';
+			KBtestmap.removeAllMapMarkers();
+			fetch(path).then(res => res.json()).then(json => {
+				KBtestmap.importJSON(json);
+				KBtestmap.showAllMapMarkers();
+			})
+		});
 		$("#acad").click(function () {
 			path = './academics.json';
 			KBtestmap.removeAllMapMarkers();
