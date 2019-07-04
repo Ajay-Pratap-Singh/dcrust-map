@@ -3,6 +3,10 @@
  *  // Map Markers CSS
  *
  */
+ .KBmap__mapContainer p{
+   display:none;
+ }
+
 .KBmap__mapContainer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -13,6 +17,8 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; }
+
+
 
 .KBmap__mapHolder {
   display: inline-block;
