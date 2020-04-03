@@ -314,7 +314,7 @@
 		});
 		$(document).ready(function () {
 			fetch(path).then(res => res.json()).then(json => {
-				createKBmap('KBtestmap', 'dcrust_map.jpg');
+				createKBmap('KBtestmap', 'dcrust_map.JPG');
 				KBtestmap.importJSON(json);
 				KBtestmap.showAllMapMarkers();
 			})
